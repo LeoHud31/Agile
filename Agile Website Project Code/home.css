@@ -1,0 +1,99 @@
+
+    /* Main image styles */
+    .main-image {
+      text-align: center;
+      padding: 50px 0;
+    }
+
+    .main-image img {
+      width: 1200px; /* Set the width of the image */
+      height: 350px; /* Maintain aspect ratio */
+    }
+
+    /* About us, Services, Contact, and Login section styles */
+    .about-us,
+    .services,
+    .contact,
+    .login {
+      padding: 50px 0;
+      text-align: center;
+    }
+
+    .about-us {
+      background-color: #f4f4f4; /* Adjust as needed */
+    }
+
+    .contact {
+      background-color: #f9f9f9; /* Adjust as needed */
+    }
+
+    .login {
+      background-color: #fff; /* Adjust as needed */
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    .column { 
+      float: inline-start; 
+      width: 50%; 
+      padding: 0 15px; 
+      /* box-sizing: border-box;  */
+    }
+
+
+   
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Add your existing styles for .feature, .feature-text, and images here */
+    .feature {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: left;
+      margin-bottom: 20px; /* Add margin between features */
+    } 
+
+    .feature img {
+      width: 100%; /* Make images responsive */
+      max-width: 100%;    
+      height: auto;
+    }
+
+    .feature h3 {
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+
+    .feature p {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    /* Media queries for responsiveness */
+    @media screen and (min-width: 650px) {
+      /* Adjust column width for tablets and larger devices */
+      .column {
+          width: 40%;
+      }
+    }
+
+    @media screen and (min-width: 900px) {
+      /* Adjust column width for large desktop screens */
+      .column {
+          width: 20%;
+      }
+    }

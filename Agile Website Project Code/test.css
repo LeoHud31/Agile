@@ -1,0 +1,14 @@
+    /* Media queries for responsiveness */
+    @media screen and (min-width: 650px) {
+        /* Adjust column width for tablets and larger devices */
+        .column {
+            width: 40%;
+        }
+      }
+  
+      @media screen and (min-width: 900px) {
+        /* Adjust column width for large desktop screens */
+        .column {
+            width: 20%;
+        }
+      }

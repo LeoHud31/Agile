@@ -1,0 +1,156 @@
+/* Default styles */
+    /* Header */
+    #header-inner {
+      background-color: #4c4858; 
+      padding: 20px 0; 
+    }
+
+    .container {
+      max-width: 1200px; 
+      margin: 0 auto; 
+      padding: 0 20px;
+    }
+
+    #main-nav {
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+    }
+
+    #logo {
+      width: 60px; 
+      float: left;
+    }
+
+    #main-nav ul {
+      list-style: none; 
+      margin: 0; 
+      padding: 0; 
+    }
+
+    #main-nav ul li {
+      display: inline-block; 
+    }
+
+    #main-nav ul li a {
+      color: #ffffff; 
+      text-decoration: none; 
+      padding: 10px 20px; 
+      transition: background-color 0.3s;
+      background-color: #4c4858;
+    }
+
+    #main-nav ul li a:hover {
+      background-color: #767586; 
+    }
+
+    .current {
+      font-weight: bold; 
+    }
+
+    /* Resetting default margin and padding */
+    body, h1, h3, p, ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Main image styles */
+    .main-image {
+      text-align: center;
+      padding: 50px 0;
+    }
+
+    .main-image img {
+      width: 1200px; /* Set the width of the image */
+      height: 350px; /* Maintain aspect ratio */
+    }
+
+    /* About us, Services, Contact, and Login section styles */
+    .about-us,
+    .services,
+    .contact,
+    .login {
+      padding: 50px 0;
+      text-align: center;
+    }
+
+    .about-us {
+      background-color: #f4f4f4; /* Adjust as needed */
+    }
+
+    .contact {
+      background-color: #f9f9f9; /* Adjust as needed */
+    }
+
+    .login {
+      background-color: #fff; /* Adjust as needed */
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+
+
+
+   
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Add your existing styles for .feature, .feature-text, and images here */
+    .feature {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: left;
+      margin-bottom: 20px; /* Add margin between features */
+    } 
+
+    .feature img {
+      width: 100%; /* Make images responsive */
+      max-width: 100%;    
+      height: auto;
+    }
+
+    .feature h3 {
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+
+    .feature p {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
